@@ -60,6 +60,7 @@ All student data and user data is fictional (full names, email addresses, weight
 + JSON Web Tokens Authentication (JWT)
 + Nodemon
 + Dotenv
++ EditorConfig
 + ESLint
 + Multer for file upload
 + [generatedata.com](https://generatedata.com/)

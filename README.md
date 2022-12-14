@@ -2,11 +2,11 @@
 
 This project is a REST API for a Student Information System developed with Node.js, Express.js, MariaDB (SQL) + Sequelize running on Docker via Linux Ubuntu server on Google Cloud Platform Virtual Machine, Sucrase, Middlewares and more (check the complete tech stack below).
 
-The API has a login system that uses JSON Web Tokens (JWT) to grant access to database-changing features, such as registring a new student, editing data and uploading photos. Only authenticated users with a JWT can add data to and retrieve data from the API.
+The API has a login system that uses JSON Web Tokens (JWT) to grant access to database-changing features, such as registering a new student, editing data and uploading photos. Only authenticated users with a JWT can add data to and retrieve data from the API.
 
 The Model-View-Controller Architecture was used, except for the the views as this is a backend project.
 
-Insomnia API Client was used to test the HTTP request/respose flow.
+Insomnia API Client was used to test the HTTP request/response flow.
 
 ## Project Demonstration Video
 

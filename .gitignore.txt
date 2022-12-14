@@ -1,0 +1,4 @@
+node_modules
+.env
+project_tech_stack.txt
+generatedata.sql

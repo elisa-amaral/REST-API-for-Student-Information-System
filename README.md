@@ -18,7 +18,7 @@ The password used to authenticate users in the video has not been kept on the da
 
 All photos used in the video to test the file upload feature are under a copyright-free license.
 
-All student data and user data is fictional (full names, email addresses, weight and height). This data was created for testing purposes with [generatedata.com](https://generatedata.com/).
+All student data and user data is fictional (full names, email addresses, weight and height). This data was created for testing purposes with [generatedata.com](https://generatedata.com/)
 
 ## Implemented Features
 

@@ -12,6 +12,8 @@ Insomnia API Client was used to test the HTTP request/respose flow.
 
 https://drive.google.com/file/d/1g_bnXaKaQPdmv7LAbCg9B3dBRIW3tVv2/view?usp=share_link
 
+## Important Details
+
 The password used to authenticate users in the video has not been kept on the database as a permanent password, it was created for demonstration purposes only.
 
 All photos used in the video to test the file upload feature are under a copyright-free license.

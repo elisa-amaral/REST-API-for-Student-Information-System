@@ -59,7 +59,7 @@ All student data and user data is fictional (full names, email addresses, weight
 + bcrypt.js
 + JSON Web Tokens Authentication (JWT)
 + Nodemon
-+ Dotenv
++ Dotenv 
 + EditorConfig
 + ESLint
 + Multer for file upload

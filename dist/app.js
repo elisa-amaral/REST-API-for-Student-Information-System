@@ -14,7 +14,7 @@ var _studentRoutes = require('./routes/studentRoutes'); var _studentRoutes2 = _i
 var _photoRoutes = require('./routes/photoRoutes'); var _photoRoutes2 = _interopRequireDefault(_photoRoutes);
 
 const whiteList = [
-  'http://http://35.198.33.26/',
+  'http://http://35.198.33.26',
   'http://localhost:3002',
 ]
 

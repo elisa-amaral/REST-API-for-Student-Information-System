@@ -14,7 +14,7 @@ import studentRoutes from './routes/studentRoutes'
 import photoRoutes from './routes/photoRoutes'
 
 const whiteList = [
-  'http://http://35.198.33.26/',
+  'http://http://35.198.33.26',
   'http://localhost:3002',
 ]
 

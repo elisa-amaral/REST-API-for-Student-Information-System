@@ -4,7 +4,7 @@ import Photo from '../models/Photo'
 class StudentController {
   async index(req, res) {
     const students = await Student.findAll({
-      attributes: ['id', 'first_name', 'last_name', 'age', 'weight', 'height'],
+      attributes: ['id', 'first_name', 'email', 'last_name', 'age', 'weight', 'height'],
       order: [['id', 'DESC'], [Photo, 'id', 'DESC']],
       include: {
         model: Photo,
@@ -36,7 +36,7 @@ class StudentController {
       }
 
       const student = await Student.findByPk(id, {
-        attributes: ['id', 'first_name', 'last_name', 'age', 'weight', 'height'],
+        attributes: ['id', 'first_name', 'email', 'last_name', 'age', 'weight', 'height'],
         order: [['id', 'DESC'], [Photo, 'id', 'DESC']],
         include: {
           model: Photo,

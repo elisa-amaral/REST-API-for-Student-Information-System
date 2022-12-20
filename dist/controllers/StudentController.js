@@ -4,7 +4,7 @@ var _Photo = require('../models/Photo'); var _Photo2 = _interopRequireDefault(_P
 class StudentController {
   async index(req, res) {
     const students = await _Student2.default.findAll({
-      attributes: ['id', 'first_name', 'last_name', 'age', 'weight', 'height'],
+      attributes: ['id', 'first_name', 'email', 'last_name', 'age', 'weight', 'height'],
       order: [['id', 'DESC'], [_Photo2.default, 'id', 'DESC']],
       include: {
         model: _Photo2.default,
@@ -36,7 +36,7 @@ class StudentController {
       }
 
       const student = await _Student2.default.findByPk(id, {
-        attributes: ['id', 'first_name', 'last_name', 'age', 'weight', 'height'],
+        attributes: ['id', 'first_name', 'email', 'last_name', 'age', 'weight', 'height'],
         order: [['id', 'DESC'], [_Photo2.default, 'id', 'DESC']],
         include: {
           model: _Photo2.default,
